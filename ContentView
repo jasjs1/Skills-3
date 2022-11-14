@@ -17,9 +17,14 @@ struct ContentView: View {
             Image(systemName: "pencil.line")
                 .bold()
                 .font(.largeTitle)
+            Text("Welcome to")
+                .padding(.top, 17.5)
+                .bold()
+                .font(.largeTitle)
+                .padding(.all, 0.05)
             Text("Skills 3")
                 .bold()
-                .font(.title)
+                .font(.largeTitle)
                 .fontWeight(.black)
                 .padding(.bottom, 15)
             Text("Color Code Key:")
@@ -56,3 +61,4 @@ struct ContentView: View {
         }
     }
 }
+
