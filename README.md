@@ -1,3 +1,5 @@
+### README.md
+
 ### SKils 3 is a open-source iOS applicatoin coded in Swift, SwiftUI. this app may be released to the AppStore.
 
 
@@ -12,3 +14,13 @@ $$ This app is for people that want to learn new things, I am developing multipl
 
 
 ## Feel free to take a peek inside of the GitHub Repository
+
+### README2.md :
+
+### Important Notice:
+
+## Some of this applicatoins are using SF Symbols
+
+## If you don't have it installed on your machine
+# https://developer.apple.com/sf-symbols/
+# Or it is avabile on developer.apple.com
