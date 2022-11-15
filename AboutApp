@@ -17,7 +17,7 @@ import SwiftUI
 struct AboutApp: View {
     var body: some View {
         VStack {
-                Text("    About:")
+                Text("    About app")
                     .bold()
                     .font(.title)
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
