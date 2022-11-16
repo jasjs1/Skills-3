@@ -24,3 +24,6 @@ $$ This app is for people that want to learn new things, I am developing multipl
 ## If you don't have it installed on your machine
 # https://developer.apple.com/sf-symbols/
 # Or it is avabile on developer.apple.com
+
+
+## Images have been removed. Because they are not longer usefull in the code as of 11.15.22 at 8:34p
