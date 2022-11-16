@@ -1,74 +1,42 @@
 //
-//  AboutAp.swift
+//  Guidence.swift
 //  Skills 3
-//
-//  Created by Jayce Sagvold on 11/14/22.
-//
-
-//
-//  AboutApp.swift
-//  CourseApp
 //
 //  Created by Jayce Sagvold on 11/14/22.
 //
 
 import SwiftUI
 
-struct AboutApp: View {
+struct Guidence: View {
     var body: some View {
-        VStack {
-                Text("    About:")
-                    .bold()
-                    .font(.title)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-            Text("✋ Privacy")
-                .foregroundColor(.blue)
-                .bold()
-                .font(.title2)
-            Text("No user data is collected from the user of this application.")
-                .font(.system(size: 18.3))
-                .padding(.bottom, 18)
-            Text("🧑🏻‍💻 About the Developer")
-                .font(.title2)
-                .bold()
-            Text("I am a Indie Developer, developing in SwiftUI. I used to make games for Roblox, then stopped liking it, and there was not feature in Game Dev for me. So, this is why I am making")
-                .font(.system(size: 18.3))
-                .padding(.bottom, 18)
-            
-            Text("What is this app for?")
-                .bold()
-                .font(.title2)
-            Text("This app is for people that want to learn new things. There is a lot of diffrent generas of topics in this app. There is tech, design, crafts,ect genres of skills")
-                .font(.system(size: 18.3))
-                .padding(.bottom, 18)
-            Text("Insperation for this app")
-                .bold()
-                .font(.title2)
-            Text("I was on YouTube wondering how to make a course app. And I fallowed the tutorial. But this app is nothing like the tutorial. I am making this app with NO tutorials :), learn to code!")
-                .font(.system(size: 18.3))
-                .padding(.bottom, 18)
         
-            
+        VStack {
             List {
-                // Socials List
-                Text("Socials:")
+                HStack {
+                Image(systemName: "info.circle")
+                Text("GUIDIANCE")
+                        .font(.subheadline)
+                }
+                Text("How to use")
+                    .font(.title2)
+                    .bold()
+                Text("You use my app by using the bottom tabs. Then it will take you to a new page. Then depending on what you clicked on, there will be a diffrent skill.")
+                Text("Who is this app for?")
                     .bold()
                     .font(.title3)
-                Text("Twitter: JayceSagvold2 (not a link)")
-                    .foregroundColor(.blue)
-                Text("GitHub: jSagvold28")
-            
+                Text("This app is for people that want to pick up a new skill. Maybe for new years resulutions, new job, new hobby, ect. ")
+                Text("This app is in beta stages. Meaning that there may be a bug, or two. I am a Indie Developer (meaning that I am im a independent developer) please report bugs @ jaycesagvold@icloud.com")
+                    .font(.subheadline)
+                Text("For you developers, this app is open-source on GitHub.")
+                Text("URL:")
+                Text("https://github.com/jSagvold28/Skills-3")
+                }
             }
-
-            }
-        VStack {
-            }
-            
-            }
-        }
-    
-    struct AboutApp_Previews: PreviewProvider {
-        static var previews: some View {
-            AboutApp()
         }
     }
+
+struct Guidence_Previews: PreviewProvider {
+    static var previews: some View {
+        Guidence()
+    }
+}
