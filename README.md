@@ -1,4 +1,7 @@
 
+##### APP IS OUT OF BETA!
+
+
 
 ### README.md
 
