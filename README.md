@@ -27,3 +27,5 @@ $$ This app is for people that want to learn new things, I am developing multipl
 
 
 ## Images have been removed. Because they are not longer usefull in the code as of 11.15.22 at 8:34p
+
+####This application is in beta stages. This app may have bugs.
