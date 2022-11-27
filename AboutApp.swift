@@ -7,7 +7,7 @@
  
 import SwiftUI
 
-struct Guidence: View {
+struct AboutApp: View {
     var body: some View {
         
         VStack {
@@ -37,6 +37,6 @@ struct Guidence: View {
 
 struct Guidence_Previews: PreviewProvider {
     static var previews: some View {
-        Guidence()
+        AboutApp()
     }
 }
