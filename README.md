@@ -2,8 +2,8 @@
 ##### APP IS OUT OF BETA!
 
 
-
 ### README.md
+### Application is out of beta, meaning that there will be less bugs, and UI improvments.
 
 ### Skills 3 is a open-source iOS application coded in Swift, SwiftUI. this app may be released to the AppStore.
 
